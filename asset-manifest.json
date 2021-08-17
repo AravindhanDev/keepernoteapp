@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/keepernoteapp/static/js/main.b91b29d1.chunk.js",
+    "main.js.map": "/keepernoteapp/static/js/main.b91b29d1.chunk.js.map",
+    "runtime-main.js": "/keepernoteapp/static/js/runtime-main.d5bf8673.js",
+    "runtime-main.js.map": "/keepernoteapp/static/js/runtime-main.d5bf8673.js.map",
+    "static/js/2.d5cd440c.chunk.js": "/keepernoteapp/static/js/2.d5cd440c.chunk.js",
+    "static/js/2.d5cd440c.chunk.js.map": "/keepernoteapp/static/js/2.d5cd440c.chunk.js.map",
+    "index.html": "/keepernoteapp/index.html",
+    "precache-manifest.1fb1ffb7af1f48319e94d5cf466f896d.js": "/keepernoteapp/precache-manifest.1fb1ffb7af1f48319e94d5cf466f896d.js",
+    "service-worker.js": "/keepernoteapp/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5bf8673.js",
+    "static/js/2.d5cd440c.chunk.js",
+    "static/js/main.b91b29d1.chunk.js"
+  ]
+}
