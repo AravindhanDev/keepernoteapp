@@ -1,0 +1,161 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background: #eee;
+	padding: 0 16px;
+	background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+}
+
+header {
+	background: #43c6ac; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#191654,
+		#43c6ac
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#191654,
+		#43c6ac
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	margin: auto -16px;
+	padding: 16px 32px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+	color: #fff;
+	font-family: 'McLaren', cursive;
+	font-weight: 200;
+}
+
+footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;
+}
+
+footer p {
+	color: #ccc;
+}
+.note {
+	background: #fff;
+	border-radius: 7px;
+	box-shadow: 0 2px 5px #ccc;
+	padding: 10px;
+	width: 240px;
+	margin: 16px;
+	float: left;
+}
+.note h1 {
+	font-size: 1.1em;
+	margin-bottom: 6px;
+}
+.note p {
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.note button {
+	position: relative;
+	float: right;
+	margin-right: 10px;
+	color: #43c6ac;
+	border: none;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+	outline: none;
+	background-color: #fff;
+}
+
+form.create-note {
+	position: relative;
+	width: 480px;
+	margin: 30px auto 20px;
+	background: #fff;
+	padding: 15px;
+	border-radius: 7px;
+	box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+	width: 100%;
+	border: none;
+	padding: 4px;
+	outline: none;
+	font-size: 1.2em;
+	font-family: inherit;
+	resize: none;
+}
+form.create-note button {
+	position: absolute;
+	right: 18px;
+	bottom: -18px;
+	background: #43c6ac; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#191654,
+		#43c6ac
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#191654,
+		#43c6ac
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	color: #fff;
+	border: none;
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+	form.create-note {
+		width: 100%;
+		margin: 30px auto 20px;
+		padding: 15px;
+	}
+	.note {
+		padding: 10px;
+		width: 230px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	header {
+		text-align: center;
+	}
+	form.create-note {
+		width: 100%;
+		margin: 30px auto 20px;
+		padding: 15px;
+	}
+	.note {
+		padding: 10px;
+		width: 270px;
+		margin-left: 1.9rem;
+	}
+	.note:last-of-type {
+		margin-bottom: 5rem;
+	}
+	footer {
+		padding-top: 1rem;
+		text-align: center;
+	}
+}
